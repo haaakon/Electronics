@@ -10,6 +10,7 @@
 		EC2C25431896533D007048DC /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = EC2C25421896533D007048DC /* main.cpp */; };
 		EC2C25451896533D007048DC /* LocalLibrary.cpp in Sources */ = {isa = PBXBuildFile; fileRef = EC2C25441896533D007048DC /* LocalLibrary.cpp */; };
 		EC2C25481896533D007048DC /* Makefile in Sources */ = {isa = PBXBuildFile; fileRef = EC2C25471896533D007048DC /* Makefile */; };
+		EC2C259918965437007048DC /* ClassLibrary.cpp in Sources */ = {isa = PBXBuildFile; fileRef = EC2C259718965437007048DC /* ClassLibrary.cpp */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -73,7 +74,9 @@
 		EC2C25821896533E007048DC /* embedXcode_check */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.executable"; name = embedXcode_check; path = Utilities/embedXcode_check; sourceTree = "<group>"; };
 		EC2C25831896533E007048DC /* embedXcode_chrono */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.executable"; name = embedXcode_chrono; path = Utilities/embedXcode_chrono; sourceTree = "<group>"; };
 		EC2C25841896533E007048DC /* TemplateIcon.icns */ = {isa = PBXFileReference; lastKnownFileType = image.icns; name = TemplateIcon.icns; path = Utilities/TemplateIcon.icns; sourceTree = "<group>"; };
-		EC2C25851896533E007048DC /* Perler_robot.ino */ = {isa = PBXFileReference; lastKnownFileType = text; path = Perler_robot.ino; sourceTree = "<group>"; };
+		EC2C25851896533E007048DC /* Perler_robot.ino */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; path = Perler_robot.ino; sourceTree = "<group>"; };
+		EC2C259718965437007048DC /* ClassLibrary.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = ClassLibrary.cpp; sourceTree = "<group>"; };
+		EC2C259818965437007048DC /* ClassLibrary.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ClassLibrary.h; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXGroup section */
@@ -97,6 +100,8 @@
 			isa = PBXGroup;
 			children = (
 				EC2C25421896533D007048DC /* main.cpp */,
+				EC2C259718965437007048DC /* ClassLibrary.cpp */,
+				EC2C259818965437007048DC /* ClassLibrary.h */,
 				EC2C25441896533D007048DC /* LocalLibrary.cpp */,
 				EC2C25461896533D007048DC /* LocalLibrary.h */,
 				EC2C25471896533D007048DC /* Makefile */,
@@ -308,6 +313,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				EC2C259918965437007048DC /* ClassLibrary.cpp in Sources */,
 				EC2C25481896533D007048DC /* Makefile in Sources */,
 				EC2C25431896533D007048DC /* main.cpp in Sources */,
 				EC2C25451896533D007048DC /* LocalLibrary.cpp in Sources */,
@@ -467,6 +473,7 @@
 				EC2C258A1896533E007048DC /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		EC2C258B1896533E007048DC /* Build configuration list for PBXLegacyTarget "Build" */ = {
 			isa = XCConfigurationList;
@@ -475,6 +482,7 @@
 				EC2C258D1896533E007048DC /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		EC2C258E1896533E007048DC /* Build configuration list for PBXLegacyTarget "Serial" */ = {
 			isa = XCConfigurationList;
@@ -483,6 +491,7 @@
 				EC2C25901896533E007048DC /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		EC2C25911896533E007048DC /* Build configuration list for PBXLegacyTarget "Upload" */ = {
 			isa = XCConfigurationList;
@@ -491,6 +500,7 @@
 				EC2C25931896533E007048DC /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		EC2C25941896533E007048DC /* Build configuration list for PBXNativeTarget "Index" */ = {
 			isa = XCConfigurationList;
@@ -499,6 +509,7 @@
 				EC2C25961896533E007048DC /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

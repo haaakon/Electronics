@@ -42,6 +42,8 @@
 // Include application, user and local libraries
 #include "LocalLibrary.h"
 
+#include <Stepper.h>
+#include <Servo.h>
 
 // Prototypes
 
@@ -88,6 +90,11 @@ void setup() {
 //
 // Add loop code 
 void loop() {
-  blink(myLED, 3, 333);
-  delay(1000);    
+  delay(1000);
+    delay();
+    delay();
+    Stepper s = Stepper(299,233);
+    Serial.begin(9600);
+    myStepper.setSpeed(stepperSpeed);
+    myStepper2.setSpeed(stepperSpeed);
 }
